@@ -50,7 +50,7 @@ try:
                     "maxNum": 5, "description": "Makes you look professional when you work. Increases amount earned from working by x2"}
           }
   
-    session = scratch3.Session(os.environ['sessionID'], username='Air_heads')
+    session = scratch3.Session(mysessionid, username='Air_heads')
     conn = session.connect_cloud("718028360")
     client = scratch3.CloudRequests(conn, ignore_exceptions=True)
   
